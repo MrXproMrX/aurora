@@ -526,6 +526,13 @@ header{
     background-color:$title;
 }
 
+.about__link__button:hover > button{
+    background-color:$title;
+}
+.about__link__button:hover > button span{
+    background-color:$oring;
+}
+
 .about__link__button:hover > a span{
     background-color:$oring;
 }
