@@ -63,7 +63,7 @@ header{
     &__link__list{
         display: flex;
         align-items:center;
-        grid-gap: 70px;
+        grid-gap: 80px;
     }
 
     &__logo{
@@ -374,6 +374,7 @@ header{
 
     &__text{
         @include fontAll(16px,400,$text);
+        text-align: justify;
         margin-top: 15px;
         line-height: 24px;
         max-height: 72px;
@@ -465,6 +466,7 @@ header{
 
     &__text{
         @include fontAll(16px,400,$text);
+        text-align: justify;
         margin-top: 25px;
         line-height: 30px;
         max-height: 300px;
@@ -521,7 +523,7 @@ header{
 }
 
 .about__link__button:hover > a{
-    background-color:#fd7757;
+    background-color:$title;
 }
 
 .about__link__button:hover > a span{
@@ -575,6 +577,7 @@ header{
         @include fontAll(18px,400,$text);
         line-height: 26px;
         margin-top: 10px;
+        text-align: justify;
 
         max-height: 52px;
         -webkit-line-clamp: 2;
@@ -625,6 +628,7 @@ header{
     @include fontAll(16px,400,$text);
     line-height: 30px;
     margin-top: 25px;
+    text-align: justify;
 
     max-height: 150px;
     -webkit-line-clamp: 5;

@@ -289,6 +289,7 @@ label {
   font-size: 16px;
   font-weight: 400;
   color: #7F7F7F;
+  text-align: justify;
   line-height: 30px;
 }
 .about_company__text h1, .about_company__text h2, .about_company__text h3, .about_company__text h4, .about_company__text h5, .about_company__text h6, .about_company__text b {
@@ -561,6 +562,7 @@ label {
   color: #7F7F7F;
   line-height: 30px;
   margin-top: 20px;
+  text-align: justify;
 }
 .petrol_in__cart::after {
   display: block;
@@ -672,6 +674,7 @@ label {
   font-weight: 400;
   color: #7F7F7F;
   line-height: 30px;
+  text-align: justify;
   margin-top: 50px;
 }
 .blog_in__text h1, .blog_in__text h2, .blog_in__text h3, .blog_in__text h4, .blog_in__text h5, .blog_in__text h6, .blog_in__text b {
@@ -924,7 +927,7 @@ header {
 .header__link__list {
   display: flex;
   align-items: center;
-  grid-gap: 70px;
+  grid-gap: 80px;
 }
 .header__logo {
   width: 200px;
@@ -1209,6 +1212,7 @@ header {
   font-size: 16px;
   font-weight: 400;
   color: #7F7F7F;
+  text-align: justify;
   margin-top: 15px;
   line-height: 24px;
   max-height: 72px;
@@ -1292,6 +1296,7 @@ header {
   font-size: 16px;
   font-weight: 400;
   color: #7F7F7F;
+  text-align: justify;
   margin-top: 25px;
   line-height: 30px;
   max-height: 300px;
@@ -1344,7 +1349,7 @@ header {
 }
 
 .about__link__button:hover > a {
-  background-color: #fd7757;
+  background-color: #171717;
 }
 
 .about__link__button:hover > a span {
@@ -1394,6 +1399,7 @@ header {
   color: #7F7F7F;
   line-height: 26px;
   margin-top: 10px;
+  text-align: justify;
   max-height: 52px;
   -webkit-line-clamp: 2;
   position: relative;
@@ -1442,6 +1448,7 @@ header {
   color: #7F7F7F;
   line-height: 30px;
   margin-top: 25px;
+  text-align: justify;
   max-height: 150px;
   -webkit-line-clamp: 5;
   position: relative;

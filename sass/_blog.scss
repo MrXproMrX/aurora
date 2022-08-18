@@ -63,6 +63,7 @@
     &__text{
         @include fontAll(16px,400,$text);
         line-height: 30px;
+        text-align: justify;
         margin-top: 50px;
         h1,h2,h3,h4,h5,h6,b{
              @include fontAll(22px,700,$title);

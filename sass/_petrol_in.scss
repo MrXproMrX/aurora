@@ -59,6 +59,7 @@
         @include fontAll(16px,400,$text);
         line-height:30px;
         margin-top: 20px;
+        text-align: justify;
     }
 
     &__cart::after {
