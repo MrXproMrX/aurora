@@ -354,11 +354,6 @@ label {
 @media (max-width: 1000px) {
   .about_company__services__img {
     flex: 0 0 100%;
-    height: auto;
-    max-height: 500px;
-  }
-  .about_company__text {
-    height: auto;
     max-height: 500px;
   }
 }
@@ -384,6 +379,9 @@ label {
 @media (max-width: 750px) {
   .about_company__title__h2 {
     font-size: 36px;
+  }
+  .about_company__services__img {
+    height: auto;
   }
 }
 @media (max-width: 600px) {
