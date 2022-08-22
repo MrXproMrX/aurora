@@ -44,7 +44,7 @@ $(document).ready(function(){
         }
       ]
     });
-}); 
+});
 
 $(document).ready(function(){
   $('.burger__start').click(function(){
@@ -63,6 +63,24 @@ $(document).ready(function(){
     $('.burger__start').css('display','block')
   })
 });
+
+// petrol_in__serch ------------------------------
+
+$(document).ready(function(){
+  $('.petrol_in__serch__block').click(function(){
+    $('.petrol_in__serch').fadeTo(500, 1)
+    $('.petrol_in__serch').css('display','block')
+  })
+});
+
+$(document).ready(function(){
+  $('.petrol_in__serch__none').click(function(){
+    $('.petrol_in__serch').fadeTo(500, 1)
+    $('.petrol_in__serch').css('display','none')
+  })
+});
+
+// petrol_in__serch ------------------------------
 
 $(document).ready(function(){
   (function($){
