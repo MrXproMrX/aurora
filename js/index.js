@@ -72,13 +72,20 @@ $(document).ready(function(){
     $('.petrol_in__serch').css('display','block')
   })
 });
-
 $(document).ready(function(){
   $('.petrol_in__serch__none').click(function(){
     $('.petrol_in__serch').fadeTo(500, 1)
     $('.petrol_in__serch').css('display','none')
   })
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.dropdown-trigger');
+  var instances = M.Dropdown.init(elems, options);
+});
+// Or with jQuery
+$('.dropdown-trigger').dropdown();
 
 // petrol_in__serch ------------------------------
 

@@ -43,15 +43,32 @@
                             <li><a href="contacts.html" class="header__link">Контакты</a></li>
                         </ul>
 
-                        <ul class="header__en">
-                            <li>
-                                <a class="header__en__link" href="#!">RU <span><i class="fas fa-angle-down"></i></span></a>
-                                <ul class="header__ru__none">
-                                    <li><a class="header__en__link" href="#!">EN</a></li>
-                                    <li><a class="header__en__link" href="#!">UZ</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+
+                        <!-- language start -->
+
+                        <div class="header__ru">
+                            
+                            <div class="header__ru_cart">
+                                  <a data-target='dropdown1' class="header__en__link dropdown-trigger">RU</a><span class="header__en__link"><i class="fas fa-angle-down"></i></span>
+                            </div>
+                    
+                            <div class="header__ru_none dropdown-content" id='dropdown1'>
+                                <div class="header__ru_list active">
+                                  <a href="#!-1" class="header__en__link">RU</a>
+                                </div>
+                        
+                                <div class="header__ru_list">
+                                  <a href="#!-2" class="header__en__link">EN</a>
+                                </div>
+                    
+                                <div class="header__ru_list">
+                                    <a href="#!-3" class="header__en__link">UZ</a>
+                                  </div>
+                            </div>
+                        </div>
+
+                         <!-- language start -->
+                        
 
                         <div class="header__burger__start burger__end"><i class="fas fa-times"></i></div>
                     </div>
@@ -265,10 +282,12 @@
         import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.esm.js";
     </script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/animation.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/mar_ru.js"></script>
 </body>
 </html>
