@@ -79,14 +79,14 @@ $(document).ready(function(){
   })
 });
 
-
+$(document).ready(function(){
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.dropdown-trigger');
   var instances = M.Dropdown.init(elems, options);
 });
-// Or with jQuery
-$('.dropdown-trigger').dropdown();
 
+$('.dropdown-trigger').dropdown();
+});
 // petrol_in__serch ------------------------------
 
 $(document).ready(function(){
